@@ -4,6 +4,7 @@
 	import HeaderOne from "./HeaderOne.svelte";
 	import Navbar from "./Navbar.svelte";
 	import OurTeam from "./OurTeam.svelte";
+	import Portfolio from "./Portfolio.svelte";
 </script>
 
 <div class="poppins bg-[#161616]">
@@ -12,6 +13,7 @@
 	<AboutOne />
 	<AboutTwo />
 	<OurTeam />
+	<Portfolio />
 </div>
 
 <style global windi:global windi:preflights:global windi:safelist:global>

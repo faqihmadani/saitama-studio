@@ -1,24 +1,22 @@
 <script>
-	import { onMount } from "svelte";
+	import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+
+	// Import Swiper Svelte components
+	import { Swiper, SwiperSlide } from "swiper/svelte";
+
+	// Import Swiper styles
 	import "swiper/swiper-bundle.min.css";
-	import Swiper, { Navigation } from "swiper";
 
-	Swiper.use([Navigation]);
-
-	onMount(() => {
-		const swiper = new Swiper(".swiper-container", {
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-		});
-	});
+	// install Swiper modules
+	SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 </script>
 
 <section
-	class="poppins bg-[#161616] text-white body-font pt-10 md:pt-16 mt-5 md:mt-14"
+	class="poppins bg-[#161616] text-white body-font pt-10 md:pt-16 mt-5 transform scale-75 md:scale-100 "
 >
-	<div class="md:grid grid-cols-3 container mx-auto swiper-container">
+	<div
+		class="md:grid grid-cols-3 gap-10 container mx-auto md:mt-20 overflow-x-hidden"
+	>
 		<div>
 			<h1
 				class="text-white text-[30px]  sm:text-[35px] md:text-[42px] lg:text-[54px] font-bold roboto leading-snug md:leading-snug lg:leading-snug"
@@ -31,17 +29,24 @@
 				Let's get acquainted with the great people behind Saitama Studio so that
 				we can get closer to you
 			</p>
-			<div>
-				<img class="swiper-button-prev" src="left-button.svg" alt="previous" />
-				<img class="swiper-button-next" src="right-button.svg" alt="next" />
-			</div>
 		</div>
-		<div class="swiper-wrapper col-span-2">
-			<!-- Slides -->
-			<div class="swiper-slide">Slide 1</div>
-			<div class="swiper-slide">Slide 2</div>
-			<div class="swiper-slide">Slide 3</div>
-		</div>
+		<Swiper
+			spaceBetween={10}
+			slidesPerView={1}
+			loop
+			centeredSlides
+			centeredSlidesBounds
+		>
+			<SwiperSlide>
+				<img src="tim1.png" alt="tim1" />
+			</SwiperSlide>
+			<SwiperSlide>
+				<img src="tim2.png" alt="tim2" />
+			</SwiperSlide>
+			<SwiperSlide>
+				<img src="tim3.png" alt="tim3" />
+			</SwiperSlide>
+		</Swiper>
 	</div>
 </section>
 
