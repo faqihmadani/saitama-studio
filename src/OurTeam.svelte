@@ -12,7 +12,7 @@
 </script>
 
 <section
-	class="poppins bg-[#161616] text-white body-font pt-10 md:pt-16 mt-5 transform scale-75 md:scale-100 "
+	class="poppins bg-[#161616] text-white body-font pt-10 md:pt-28 mt-5 transform scale-90 md:scale-100 "
 >
 	<div
 		class="md:grid grid-cols-3 gap-10 container mx-auto md:mt-20 overflow-x-hidden"

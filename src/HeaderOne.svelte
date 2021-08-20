@@ -52,7 +52,7 @@
 		</div>
 	</div>
 	<div
-		class="grid container mx-auto grid-cols-2 sm:grid-cols-4  items-center justify-items-center gap-y-8 py-10 mt-5"
+		class="grid container mx-auto sm:grid-cols-4  justify-center items-center justify-items-center gap-y-8 py-10 "
 	>
 		<img src="image21.svg" alt="spaceX" />
 		<img src="image18.svg" alt="slack" />

@@ -1,7 +1,7 @@
 <section
-	class="poppins bg-[#161616] text-white body-font pt-10 md:pt-16 mt-5 md:mt-14"
+	class="poppins bg-[#161616] text-white body-font pt-10 md:pt-36 mt-5 md:mt-14 transform scale-90 md:scale-100"
 >
-	<div class="container mx-auto transform scale-90 md:scale-100">
+	<div class="container mx-auto ">
 		<div class="md:grid grid-cols-3 gap-x-8">
 			<h1
 				class="text-white text-[30px]  sm:text-[35px] md:text-[42px] lg:text-[54px] font-bold roboto leading-snug md:leading-snug lg:leading-snug"

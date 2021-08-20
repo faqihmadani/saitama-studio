@@ -3,7 +3,7 @@
 </script>
 
 <section
-	class="poppins bg-[#161616] text-white body-font pt-10 md:pt-16 mt-5 md:mt-14 transform scale-90 md:scale-100"
+	class="poppins bg-[#161616] text-white body-font pt-10 md:pt-36 mt-5 md:mt-24 transform scale-90 md:scale-100"
 >
 	<div
 		class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-14 gap-x-16"
@@ -26,7 +26,7 @@
 				<PrimaryButton>More Project</PrimaryButton>
 			</div>
 		</div>
-		<div class="flex flex-col justify-center space-y-5  md:space-y-8 md:hidden">
+		<div class="justify-center space-y-5  md:space-y-8 md:hidden">
 			<div>
 				<h1
 					class="text-white text-[30px]  sm:text-[35px] md:text-[42px] lg:text-[54px] font-bold roboto leading-snug md:leading-snug lg:leading-snug"
