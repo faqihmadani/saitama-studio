@@ -4,9 +4,14 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-Website ini merupakan sebuah landing page yang memberikan informasi dari Saitama Studio sebagai sebuah creative studio. Dibuat menggunakan Svelte JS, Tailwind CSS, dan Vercel.
+This website is a landing page that provides information of Saitama Studio as a creative studio.
 
-[Link menuju demo page.](https://saitama-studio.vercel.app/)
+Tech Stack :
+- Svelte JS
+- Tailwind CSS
+- Vercel
+
+[:link: Link to demo page.](https://saitama-studio.vercel.app/)
 
 ### Screenshots
 ![studio1](https://user-images.githubusercontent.com/76164968/178095620-397f1096-39e4-489c-9c8c-d9961dd06c2a.PNG)
